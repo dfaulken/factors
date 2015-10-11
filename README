@@ -1,0 +1,18 @@
+A simple Ruby script to determine which of the naturals in a given range has the greatest number of divisors.
+
+Invoke as "ruby factors.rb x", where x is the largest natural you wish the script to traverse (default is 100).
+
+As an example, the command
+
+> ruby factors.rb
+
+produces the output:
+
+  The natural less than or equal to 100 with the greatest number of factors is 60.
+  60 has 12 factors:
+  60 = 1 x 60
+  60 = 2 x 30
+  60 = 3 x 20
+  60 = 4 x 15
+  60 = 5 x 12
+  60 = 6 x 10
