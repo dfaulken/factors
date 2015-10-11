@@ -1,4 +1,4 @@
-A simple Ruby script to determine which of the naturals in a given range has the greatest number of divisors.
+A quick Ruby script to determine which natural in a range has the greatest number of factors (positive divisors).
 
 Invoke as "ruby factors.rb x", where x is the largest natural you wish the script to traverse (default is 100).
 
