@@ -4,11 +4,12 @@ Invoke as "ruby factors.rb x", where x is the largest natural you wish the scrip
 
 As an example, the command
 
-> ruby factors.rb
+  > ruby factors.rb
 
 produces the output:
 
-  The natural less than or equal to 100 with the greatest number of factors is 60.
+  The natural less than or equal to 100 with
+  the greatest number of factors is 60.
   60 has 12 factors:
   60 = 1 x 60
   60 = 2 x 30
