@@ -3,7 +3,8 @@ def factors n
 end
 
 n = ARGV[0] ? ARGV[0].to_i : 100
-k = (1..n).max_by{|x| factors(x).count}
+n = n + 1 if n % 2 == 1
+k = (n/2..n).step(2).max_by{|x| factors(x).count}
 factors = factors(k)
 puts "The natural less than or equal to #{n} with"
 puts "the greatest number of factors is #{k}."
